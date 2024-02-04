@@ -10,7 +10,5 @@ Pod::Spec.new do |s|
   s.source                      = { :git => "https://github.com/appwoodpecker/woodpecker-ios.git", :tag => "#{s.version}" }
   s.vendored_frameworks         = "WoodPeckeriOS.xcframework"
   s.license                     = { :type => 'Copyright', :file => 'LICENSE' }
-  s.user_target_xcconfig        = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.pod_target_xcconfig 		= { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
